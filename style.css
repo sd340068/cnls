@@ -1,0 +1,766 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-area img {
+    width: 90%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.why-us {
+    width: 20%;
+    float: left;
+}
+
+.why-us h3 {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-us i.fa {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.support-box {
+    overflow: hidden;
+    background-color: #58A5E8;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    border-right: 1px solid #D1D1D1;
+    padding: 10px 0;
+    border-left: 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-box {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.service-left {
+    width: 24%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.service-right {
+    width: 76%;
+    font-weight: bold;
+    float: right;
+    padding: 4px 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.header-wraper {
+    margin: 30px 0 0;
+}
+
+.satisfacation {
+    text-align: right;
+    margin: 32px 0;
+}
+
+.satisfacation img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.footer-logo img {}
+
+.header-area {
+    margin: 10px 0;
+}
+
+/*======================== Menu Design ==================*/
+
+.menu-container {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #58A5E8;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #EF8918;
+    box-shadow: 0 5px 0 0 #EF8918, 0 0 0 0 inset, 0 -5px 0 0 #EF8918;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 20px;
+    top: -45px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #EF8918;
+}
+
+#navbar ul {
+    display: inline-flex;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.5s;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+
+#navbar ul li a:hover {
+    background-color: #EF8918;
+    color: #fff;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.Product-title-area {
+    background-color: #58A5E8;
+}
+
+.pro-title {
+    background-color: #CF0D9A;
+    border-radius: 5px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 28px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.dis-heading {
+    background-color: #000;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+.dis-heading h3 {
+    font-size: 24px;
+    color: #FF0000;
+
+}
+
+/*  ================================
+        product area start
+    ================================ */
+
+.box-area {
+    margin: 30px 0 0;
+}
+
+.box-area h1 {
+    background-color: #58A5E8;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box-content {
+    padding: 30px 30px 0;
+    overflow: hidden;
+}
+
+.pro-img {
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pro-single-img {
+    height: 542px;
+    position: relative;
+}
+
+.pro-single-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+}
+
+.warranty {
+    margin: 30px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.pro-features h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.pro-content {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.pro-content h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.pro-content h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+}
+
+.pro-content h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.pro-content h4 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.pro-content h4 i.fa {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.pro-content h5 {
+    font-size: 14px;
+    color: #000;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+.pro-content ul {
+    margin-bottom: 15px;
+}
+
+.pro-content ul li {
+    list-style: none;
+    padding: 3px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pro-content ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #000;
+}
+
+.border-box {
+    overflow: hidden;
+}
+
+.col-half {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    width: 37%;
+    float: left;
+    padding: 10px 30px 20px;
+}
+
+.stock-img {
+    margin-top: 20px;
+}
+
+.stock-img img {
+    width: 90px;
+    float: left;
+    margin-right: 15px;
+}
+
+.stock-img p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.offer-img {
+    width: 27%;
+    float: left;
+    margin: 14px 0;
+    text-align: center;
+}
+
+.dec-table {
+    width: 30%;
+    float: left;
+}
+
+.price,
+.buynow,
+.save,
+.percent {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.buynow {
+    color: #0158AC;
+}
+
+.save {
+    color: #C30A1D;
+}
+
+.box-des h1 {
+    padding-left: 30px;
+}
+
+.table_new {
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-bottom: none;
+    width: 100%;
+}
+
+.table_new > tbody > tr > td:nth-child(1) {
+    font-weight: bold;
+}
+
+.table_new tr td {
+    border: 1px solid #dcdcdc;
+    padding: 10px 40px;
+    border-top: none;
+    border-right: none;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+}
+
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+.dec-table table,
+.dec-table td {
+    border: 1px solid #D1D1D1;
+    font-size: 14px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.dec-table td {
+    padding: 9px 30px;
+}
+
+.dec-table tr:nth-child(2n) {
+    background-color: #fff;
+}
+
+.buy-info {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.buy-info i.fa {
+    font-size: 30px;
+}
+
+.buy-info h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 5px auto;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.buy-info h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.bpn {
+    padding: 30px 0 0;
+}
+
+.recent-review p {
+    margin: 0;
+}
+
+.recent-review {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-bottom: 0;
+}
+
+.rxb {
+    border-bottom: 1px solid #000;
+}
+
+.review-btn {
+    background-color: #58A5E8;
+    color: #fff !important;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    border-radius: 5px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 80px 0;
+}
+
+section.tab-section {
+    display: none;
+    padding: 40px 45px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    display: none;
+}
+
+label {
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F8F8FA;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input:checked + label {
+    color: #fff;
+    border: 1px solid #EF8918;
+    background-color: #EF8918;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+    display: block;
+}
+
+section > p {
+    font-size: 16px;
+}
+
+section li {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.tab-section h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3a3a3a;
+    margin: 10px 0 30px;
+    font-weight: bold;
+}
+
+.tab-section p {
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-section p a {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-section p:last-child {
+    margin-bottom: 0;
+}
+
+.tab-section img {
+    width: 250px;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 30px 0;
+    background-color: #58A5E8;
+    margin-top: 30px;
+}
+
+.footer-widget h2 {
+    padding-left: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-widget h2::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    border: 1px solid #EF8918;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.footer-widget h3 {
+    padding: 60px 0 0;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-widget ul {
+    margin-bottom: 20px;
+}
+
+.footer-widget ul li {
+    color: #999999;
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-widget ul li::before {
+    position: absolute;
+    content: "-";
+    font-family: fontawesome;
+    left: 0;
+    color: #EF8918;
+}
+
+.footer-widget p a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.copy-right {
+    padding: 30px 0;
+}
+
+.copy-right p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-widget.text-right.ta img {
+    padding: 20px;
+    background-color: #111111;
+    margin: 19px 0 0;
+    border-radius: 100px;
+}
+
+.f-ex {
+    padding-bottom: 0;
+}
+
+.pay img {
+    margin-top: 15px;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
